@@ -1,4 +1,4 @@
-# FAAAAH-Listener 🪟 Windows PowerShell
+# byteFAAAH 🪟 Windows PowerShell
 
 This folder contains the native Windows implementation for **PowerShell** and **Windows Terminal**.
 

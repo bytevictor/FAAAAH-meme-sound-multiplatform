@@ -17,7 +17,7 @@ Justo antes de mostrarte un nuevo prompt, el script comprueba si el último coma
 
 Añadimos soporte directo para:
 
-- 🐧 **Linux Nativo**: Automágicamente detecta y usa los reproductores de tu sistema (`paplay` para PulseAudio, `aplay` para ALSA).
+- 🐧 **Linux Nativo**: Automáticamente detecta y usa los reproductores de tu sistema (`paplay` para PulseAudio, `aplay` para ALSA).
 - 🍎 **macOS**: Utiliza el comando integrado `afplay`.
 - 🪟 **WSL (Windows Subsystem for Linux)**:
   Reproducir audio dentro de WSL suele requerir molestas configuraciones externas. Nos las saltamos todas.
@@ -27,7 +27,7 @@ Añadimos soporte directo para:
 ## Instalación 💿
 
 1. Clona o descarga este repo en tu PC.
-2. Lanza el script mágico:
+2. Ejecuta el script de instalación:
    ```bash
    ./install.sh
    ```
@@ -38,10 +38,10 @@ Añadimos soporte directo para:
 
 ## Desinstalación 🏳️
 
-¿Tus compañeros de piso se están quejando del ruido? Te entendemos.
+Para eliminar el listener:
 
 ```bash
 ./uninstall.sh
 ```
 
-Luego recarga tu shell para matar cualquier proceso en segundo plano que se haya quedado colgado.
+Luego recarga tu shell para matar el proceso en segundo plano.

@@ -1,6 +1,6 @@
 # FAAAAH-Listener 📢🐧
 
-> Add FAAAAAH meme sound to your shell on every non-0 command output. Task failed successfully. Late night boredom medicine project.
+> Add FAAAAAH meme sound to your shell on every non-0 command output. Task failed successfully.
 
 _[Leer en Español](README.es.md)_
 
@@ -11,7 +11,7 @@ We hook into your shell's lifecycle:
 - **Bash**: Abusing the `PROMPT_COMMAND` environment variable.
 - **Zsh**: Using `precmd` via `add-zsh-hook`.
 
-Right before dropping a new prompt, the script checks if the last command failed (`$? != 0`). If it did, it spawns an isolated background subshell to play the lovely sound. Zero overhead, zero UI blocking. Just pure auditory feedback.
+Right before dropping a new prompt, the script checks if the last command failed (`$? != 0`). If it did, it spawns an isolated background subshell to play the sound. Zero overhead, zero UI blocking. Just auditory feedback.
 
 ## OS Support 🌍
 
@@ -27,7 +27,7 @@ We added native support for:
 ## Installation 💿
 
 1. Clone or download this repo somewhere safe.
-2. Run the magic script:
+2. Run the install script:
    ```bash
    ./install.sh
    ```
@@ -38,10 +38,10 @@ We added native support for:
 
 ## Uninstallation 🏳️
 
-Getting noise complaints from your roommates? We got you.
+To remove the listener:
 
 ```bash
 ./uninstall.sh
 ```
 
-Then reload your shell to kill any lingering background nonsense.
+Then reload your shell to kill the background process.

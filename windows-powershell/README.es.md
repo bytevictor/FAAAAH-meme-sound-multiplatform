@@ -17,8 +17,9 @@ Sobrescribe la función nativa `prompt`. Antes de que se dibuje la nueva entrada
    .\install.ps1
    ```
 
-   > [!IMPORTANT]
-   > Si PowerShell te bloquea la ejecución de scripts, deberás abrirlo como Administrador y ejecutar `Set-ExecutionPolicy RemoteSigned` para permitir correr tus propios scripts.
+> [!IMPORTANT]
+> Si PowerShell te bloquea la ejecución de scripts, deberás abrirlo como Administrador y ejecutar `Set-ExecutionPolicy RemoteSigned` para permitir correr tus propios scripts.
+
 3. Reinicia tu terminal o ejecuta `. $PROFILE`.
 
 ## Desinstalación 🏳️

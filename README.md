@@ -4,6 +4,8 @@
 
 _[Leer en Español](README.es.md)_
 
+<video src="./demo.mp4" controls="controls" width="100%"></video>
+
 ## How it works ⚙️
 
 We hook into your shell's lifecycle:

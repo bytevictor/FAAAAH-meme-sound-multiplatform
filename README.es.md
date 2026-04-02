@@ -4,6 +4,8 @@
 
 _[Read in English](README.md)_
 
+<video src="./demo.mp4" controls="controls" width="100%"></video>
+
 ## ¿Cómo funciona? ⚙️
 
 Nos enganchamos al ciclo de vida de tu shell:

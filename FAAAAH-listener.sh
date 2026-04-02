@@ -32,12 +32,12 @@ else
 fi
 
 # ==========================================
-# 2. RUNTIME: El hook O(1)
+# 2. RUNTIME: El hook
 # ==========================================
 cmd_fail_listener() {
     local exit_code=$? 
-    # Evaluamos el comando pre-procesado usando 'eval' de forma segura y en segundo plano
-    [ $exit_code -ne 0 ] && [ -n "$FAAAAH_CMD" ] && eval "$FAAAAH_CMD" &>/dev/null &
+    # El truco del subshell (): Aísla el proceso para que la terminal no imprima el "[1] + done"
+    [ $exit_code -ne 0 ] && [ -n "$FAAAAH_CMD" ] && (eval "$FAAAAH_CMD" &>/dev/null &)
 }
 
 # ==========================================
